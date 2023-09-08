@@ -40,7 +40,7 @@ try {
         resource_group = "rg-"+namespace+"-"+postfix+environment;
     }
     if(checkGenerateEntity(aml_workspace)){
-        aml_workspace = "mlw-"+namespace+"-"+postfix+environment;
+        aml_workspace = "mlw-"+namespace+"-"+postfix+environment+"-wama0";
     }
 
     if(checkGenerateEntity(terraform_st_resource_group)){
